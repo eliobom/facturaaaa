@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "bolt-expo-nativewind",
+    "slug": "bolt-expo-nativewind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "extra": {
+      "SUPABASE_URL": "https://rdrxcwyeseermznrxkvp.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkcnhjd3llc2Vlcm16bnJ4a3ZwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc3MzAxNDgsImV4cCI6MjA3MzMwNjE0OH0.pJT_N_xxJ7jfPUmjXGX7qwrmY-E0rtbR4vhoCixCcwA"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
